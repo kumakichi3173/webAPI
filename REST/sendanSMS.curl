@@ -1,0 +1,5 @@
+curl 'https://api.twilio.com/2010-04-01/Accounts/AC23eb19c43794fb734fc0d10cb40ba534/Messages.json' -X POST \
+--data-urlencode 'To=+13235618907' \
+--data-urlencode 'MessagingServiceSid=MG51617dbb8a58003f1a1a5312d835a1e7' \
+--data-urlencode 'Body=Ahoy' \
+-u AC23eb19c43794fb734fc0d10cb40ba534:[AuthToken]   
